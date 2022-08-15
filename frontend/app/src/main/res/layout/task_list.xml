@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".task.TaskList"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_request"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="업무 목록"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/border_linear"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="27dp"
+                android:layout_marginBottom="16dp"
+                android:text="확정 완료된 업무"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:id="@+id/confirm_layout1"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/border_linear2"
+                android:clickable="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/img_location_black" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/confirmArea"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="12dp"
+                        android:text="마포구"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/confirmDatetime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="06.30 목 03:00 ~ 07:00"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/confirmPackageName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="43U1PHA26L"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/confirmWorkTime"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/border_linear3"
+                    android:gravity="center"
+                    android:text="새벽"
+                    android:textColor="#029aff" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="27dp"
+                android:layout_marginBottom="16dp"
+                android:text="신청한 업무"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="330dp"
+                android:layout_height="64dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/border_linear2"
+                android:clickable="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/img_location_black" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="12dp"
+                        android:text="마포구"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="05.04 수 07:00 ~ 17:00"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/border_linear3"
+                    android:gravity="center"
+                    android:text="주간"
+                    android:textColor="#029aff" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="330dp"
+                android:layout_height="64dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/border_linear2"
+                android:clickable="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/img_location_black" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="12dp"
+                        android:text="마포구"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="05.05 목 03:00 ~ 07:00"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/border_linear3"
+                    android:gravity="center"
+                    android:text="새벽"
+                    android:textColor="#029aff" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/linear_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/border_linear4"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_map1"
+            android:layout_width="82dp"
+            android:layout_height="63dp"
+            android:layout_alignParentBottom="true"
+            android:background="#00ff0000"
+            android:drawableTop="@drawable/img_location_gray"
+            android:drawablePadding="-5dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:text="지도"
+            android:textColor="#dfe2eb" />
+
+        <Button
+            android:id="@+id/button_register"
+            android:layout_width="82dp"
+            android:layout_height="63dp"
+            android:layout_alignParentBottom="true"
+            android:background="#00ff0000"
+            android:drawableTop="@drawable/img_scan_gray"
+            android:drawablePadding="-5dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:text="등록"
+            android:textColor="#dfe2eb"/>
+
+        <Button
+            android:id="@+id/button_request"
+            android:layout_width="82dp"
+            android:layout_height="63dp"
+            android:layout_alignParentBottom="true"
+            android:background="#00ff0000"
+            android:drawableTop="@drawable/img_addcircle_black"
+            android:drawablePadding="-5dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:text="업무 신청"
+            android:textColor="#000000"/>
+
+        <Button
+            android:id="@+id/button_delivery"
+            android:layout_width="82dp"
+            android:layout_height="63dp"
+            android:layout_alignParentBottom="true"
+            android:background="#00ff0000"
+            android:drawableTop="@drawable/img_car_gray"
+            android:drawablePadding="-5dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:text="배송현황"
+            android:textColor="#dfe2eb"/>
+
+        <Button
+            android:id="@+id/button_more"
+            android:layout_width="82dp"
+            android:layout_height="63dp"
+            android:layout_alignParentBottom="true"
+            android:background="#00ff0000"
+            android:drawableTop="@drawable/img_menu_gray"
+            android:drawablePadding="-5dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:text="더보기"
+            android:textColor="#dfe2eb" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

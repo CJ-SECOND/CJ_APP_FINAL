@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".task.permissionset">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/text_cjmate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="cj mate"
+            android:textSize="20sp"
+            android:textColor="#007AC3"
+            android:fontFamily="@font/cjonlyone"
+            android:layout_marginTop="30dp"
+        />
+        <TextView
+            android:id="@+id/text_cjmate2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="언제든 곁에 있는 CJ대한통운"
+            android:textSize="10sp"
+            android:textColor="#000000"
+            android:gravity="center"
+        />
+        <TextView
+            android:id="@+id/text_cjmate3"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CJ MATE 이용을 위해 다음 권한의 허용이 필요합니다."
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/cjonlyonemedium"
+            android:gravity="center"
+
+        />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp"
+            >
+            <ImageView
+                android:id="@+id/img_call"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/img_call"
+                android:layout_marginLeft="40dp"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="전화 (필수)"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="4dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="전화 연결"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    android:layout_marginLeft="15dp"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp"
+            >
+            <ImageView
+                android:id="@+id/img_camera"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/img_camera"
+                android:layout_marginLeft="40dp"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="카메라 (필수)"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="4dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="사진 촬영 및 바코드 스캔"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    android:layout_marginLeft="15dp"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp"
+            >
+            <ImageView
+                android:id="@+id/img_sms"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/img_sms"
+                android:layout_marginLeft="40dp"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SMS (필수)"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="4dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="본인인증 및 이체 결과 공유"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    android:layout_marginLeft="15dp"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp"
+            >
+            <ImageView
+                android:id="@+id/img_location"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/img_location"
+                android:layout_marginLeft="40dp"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="위치 (필수)"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="4dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="현재 위치를 확인하여 지도상에 위치표시 및\n네비게이션 위치 공유"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    android:layout_marginLeft="15dp"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp"
+            >
+            <ImageView
+                android:id="@+id/img_picture"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/img_picture"
+                android:layout_marginLeft="40dp"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="사진 (필수)"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="4dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="배송 완료 사진 첨부"
+                    android:textColor="@color/black"
+                    android:textSize="13sp"
+                    android:layout_marginLeft="15dp"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_next7"
+            android:layout_width="355dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#029AFF"
+            android:text="다음"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

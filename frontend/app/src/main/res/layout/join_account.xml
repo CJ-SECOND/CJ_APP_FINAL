@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#FFFFFF">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/accountinform"
+            android:layout_width="149dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="30dp"
+            android:text="정산 받을 계좌 정보를 등록해주세요."
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:gravity="left"
+            android:textColor="@android:color/black"
+            />
+        <EditText
+            android:id="@+id/et_accountkind"
+            android:layout_width="334dp"
+            android:layout_height="55dp"
+            android:background="@drawable/border_linear2"
+            android:layout_marginTop="145dp"
+            android:layout_marginLeft="30dp"
+            android:hint=""
+            android:paddingLeft="10dp"
+            android:text=""
+
+            />
+        <Spinner
+            android:id="@+id/spineer1"
+            android:entries="@array/은행"
+            android:layout_width="334dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="145dp"
+            android:spinnerMode="dropdown"
+
+            />
+
+
+        <EditText
+            android:id="@+id/et_banker"
+            android:layout_width="334dp"
+            android:layout_height="55dp"
+            android:background="@drawable/border_linear2"
+            android:layout_marginTop="205dp"
+            android:layout_marginLeft="30dp"
+            android:hint="예금주"
+            android:inputType="textPersonName"
+            android:text=""
+            android:paddingLeft="10dp"
+            />
+
+        <EditText
+            android:id="@+id/et_account"
+            android:layout_width="334dp"
+            android:layout_height="55dp"
+            android:background="@drawable/border_linear2"
+            android:layout_marginTop="265dp"
+            android:layout_marginLeft="30dp"
+            android:hint="계좌번호"
+            android:inputType="text|number"
+            android:text=""
+            android:paddingLeft="10dp"
+            />
+
+        <Button
+            android:id="@+id/btn_next2"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="645dp"
+            android:background="@drawable/border_button"
+            android:text="다음"
+            android:textColor="#029AFF"
+            android:gravity="center"
+
+            />
+
+    </FrameLayout>
+</FrameLayout>

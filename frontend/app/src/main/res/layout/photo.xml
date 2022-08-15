@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <TextView
+            android:id="@+id/scantitle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/header"
+            android:gravity="center"
+            android:text="사진 촬영"
+            android:textColor="@android:color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="top"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="80dp"
+            android:src="@mipmap/cjmate_ic2" />
+
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp">
+
+            <SurfaceView
+                android:id="@+id/surfaceView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="310dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="200dp"
+            android:gravity="center"
+            android:text="상품과 호수를 화면에 들어오게 촬영해주세요."
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_camera_next"
+            android:layout_width="361dp"
+            android:layout_height="47dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="600dp"
+            android:background="@drawable/btn"
+            android:text="사진촬영"
+            android:textAppearance="@style/btn" />
+
+        <LinearLayout
+            android:id="@+id/linear_nav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="335dp"
+            android:background="@drawable/border_linear4"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_map1"
+                android:layout_width="82dp"
+                android:layout_height="63dp"
+                android:layout_alignParentBottom="true"
+                android:background="#00ff0000"
+                android:drawableTop="@drawable/img_location_gray"
+                android:drawablePadding="-5dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:text="지도"
+                android:textColor="#dfe2eb" />
+
+            <Button
+                android:layout_width="82dp"
+                android:layout_height="63dp"
+                android:layout_alignParentBottom="true"
+                android:background="#00ff0000"
+                android:drawableTop="@drawable/img_car_gray"
+                android:drawablePadding="-5dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:text="등록"
+                android:textColor="#dfe2eb" />
+
+            <Button
+                android:layout_width="82dp"
+                android:layout_height="63dp"
+                android:layout_alignParentBottom="true"
+                android:background="#00ff0000"
+                android:drawableTop="@drawable/img_addcircle_black"
+                android:drawablePadding="-5dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:text="업무 신청"
+                android:textColor="#000000" />
+
+            <Button
+                android:layout_width="82dp"
+                android:layout_height="63dp"
+                android:layout_alignParentBottom="true"
+                android:background="#00ff0000"
+                android:drawableTop="@drawable/img_location_gray"
+                android:drawablePadding="-5dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:text="배송현황"
+                android:textColor="#dfe2eb" />
+
+            <Button
+                android:layout_width="82dp"
+                android:layout_height="63dp"
+                android:layout_alignParentBottom="true"
+                android:background="#00ff0000"
+                android:drawableTop="@drawable/img_menu_gray"
+                android:drawablePadding="-5dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:text="더보기"
+                android:textColor="#dfe2eb" />
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+</FrameLayout>

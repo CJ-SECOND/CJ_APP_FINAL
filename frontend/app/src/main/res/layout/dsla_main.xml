@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/dsla_check_name"
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="65dp"
+            android:background="@drawable/dsla_checke_name" />
+
+
+        <TextView
+            android:id="@+id/dsla_subname"
+            android:layout_width="250dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="135dp"
+            android:text="안전한 배송 서비스와 다양한 혜택을 위해 \n약관 동의가 필요해요!"
+            android:textSize="10sp" />
+
+        <View
+            android:id="@+id/dsla_subname1"
+            android:layout_width="370dp"
+            android:layout_height="19dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="220dp"
+            android:background="@drawable/dsla_sub1" />
+
+        <TextView
+            android:id="@+id/dsla_subname1_name1"
+            android:layout_width="170dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/bc_dsla"
+            android:padding="20dp"
+            android:paddingTop="15dp"
+            android:text="배달밀집지역 자동배정"
+            android:textAppearance="@style/수취방법"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/dsla_subname1_content1"
+            android:layout_width="170dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/bc_dsla"
+            android:paddingLeft="20dp"
+            android:paddingTop="40dp"
+            android:text="데이터 기반으로 세부화된 \n배달밀집지역 할당으로\n적은시간에 원하는 물량\n
+배달 가능합니다."
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/dlsa_subname1_name2"
+            android:layout_width="170dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/bc_dsla"
+            android:padding="20dp"
+            android:paddingTop="15dp"
+            android:text="나만의 배송등급 커스텀"
+            android:textAppearance="@style/수취방법"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/dsla_subname1_content2"
+            android:layout_width="170dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="250dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="40dp"
+            android:text="교통혼잡도, 무게 및 사이즈, \n밀집도 등급을 고르면 \n그에 적합한 배송 업무가 \n할당됩니다."
+            android:textSize="10sp" />
+
+        <View
+            android:id="@+id/dsla_subname2"
+            android:layout_width="360dp"
+            android:layout_height="19dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="420dp"
+            android:background="@drawable/dsla_sub2" />
+
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/dsla_sub2_contents1"
+                    android:layout_width="240dp"
+                    android:layout_height="209dp"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="450dp"
+                    android:background="@drawable/dsla_contents1" />
+
+
+                <ImageView
+                    android:id="@+id/dsla_sub2_contents2"
+                    android:layout_width="240dp"
+                    android:layout_height="209dp"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="450dp"
+                    android:background="@drawable/dsla_contents2" />
+
+                <ImageView
+                    android:id="@+id/dsla_sub2_contents3"
+                    android:layout_width="240dp"
+                    android:layout_height="209dp"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="450dp"
+                    android:background="@drawable/dsla_contents3" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <Button
+            android:id="@+id/agreebutton1"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="660dp"
+            android:background="@drawable/bluecirclefill"
+            android:gravity="center"
+            android:text="동의"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/add_content"
+            android:layout_width="7dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="325dp"
+            android:layout_marginTop="424dp"
+            android:background="@drawable/add" />
+
+    </FrameLayout>
+</ScrollView>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#FFFFFF">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="30dp"
+            android:text="배달 지역을 설정해주세요."
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:gravity="left"
+            android:textColor="@android:color/black"
+            />
+
+        <EditText
+            android:id="@+id/et_areado"
+            android:layout_width="334dp"
+            android:layout_height="45dp"
+            android:background="@drawable/border_linear2"
+            android:layout_marginTop="145dp"
+            android:layout_marginLeft="30dp"
+            android:hint=""
+            android:paddingLeft="10dp"
+            android:text=""
+
+            />
+
+
+        <Spinner
+            android:id="@+id/sp_do"
+            android:layout_width="334dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="145dp"
+            android:entries="@array/지역"
+            android:spinnerMode="dropdown" />
+
+        <EditText
+            android:id="@+id/et_areasi"
+            android:layout_width="334dp"
+            android:layout_height="45dp"
+            android:background="@drawable/border_linear2"
+            android:layout_marginTop="205dp"
+            android:layout_marginLeft="30dp"
+            android:hint="시/군/구"
+            android:inputType="textPersonName"
+            android:text=""
+            android:paddingLeft="15dp"
+            />
+
+
+        <EditText
+            android:id="@+id/et_areadong"
+            android:layout_width="334dp"
+            android:layout_height="45dp"
+            android:background="@drawable/border_linear2"
+            android:layout_marginTop="265dp"
+            android:layout_marginLeft="30dp"
+            android:hint="읍/면/동"
+            android:text=""
+            android:paddingLeft="15dp"
+            />
+
+
+        <Button
+            android:id="@+id/btn_next3"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="645dp"
+            android:background="@drawable/border_button"
+            android:text="다음"
+            android:textColor="#029AFF"
+            android:gravity="center"
+            />
+
+    </FrameLayout>
+</FrameLayout>

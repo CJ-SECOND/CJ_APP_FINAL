@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+    <FrameLayout
+        android:id="@+id/main_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/top_delivery_check"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/header"
+            android:gravity="center"
+            android:text="배송"
+            android:textColor="@android:color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/scannerbutton"
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="355dp"
+            android:background="@drawable/ic_scan" />
+
+        <TextView
+            android:id="@+id/delivery_check_subname_fix"
+            android:layout_width="45dp"
+            android:layout_height="19dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="70dp"
+            android:gravity="center_horizontal|top"
+            android:text="고객님"
+            android:textAppearance="@style/수취방법"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/delivery_check_subname1"
+            android:layout_width="40dp"
+            android:layout_height="19dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="70dp"
+            android:gravity="center_horizontal|top"
+            android:text="정민창"
+            android:textAppearance="@style/수취방법"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/delivery_check_address"
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="100dp"
+            android:text="서울특별시 마포구 성미산로27길"
+            android:textSize="10dp"
+            android:textAppearance="@style/수취방법"/>
+
+        <TextView
+            android:layout_width="35dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/bluecirclecircle"
+            android:gravity="center"
+            android:text="문앞"
+            android:textColor="#029AFF"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/btn_call"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="325dp"
+            android:background="@drawable/ic_call" />
+
+
+        <Button
+            android:id="@+id/ic_sms"
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:layout_marginTop="69dp"
+            android:layout_marginLeft="350dp"
+            android:background="@drawable/ic_sms" />
+
+        <View
+            android:id="@+id/sub_line"
+            android:layout_width="411dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="180dp"
+            android:background="@drawable/line" />
+
+
+        <Button
+            android:id="@+id/btn_lost"
+            android:layout_width="90dp"
+            android:layout_height="47dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="600dp"
+            android:background="@drawable/btn_lost"
+            android:text="분실/파손"
+            android:textAppearance="@style/btn"/>
+
+        <Button
+            android:id="@+id/btn_wrong"
+            android:layout_width="90dp"
+            android:layout_height="47dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="600dp"
+            android:background="@drawable/btn_wrong"
+            android:text="오배송"
+            android:textAppearance="@style/btn"/>
+
+        <Button
+            android:id="@+id/btn_completion"
+            android:layout_width="140dp"
+            android:layout_height="47dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="600dp"
+            android:background="@drawable/btn_completion"
+            android:text="배송완료"
+            android:textAppearance="@style/btn" />
+
+        <Button
+            android:id="@+id/btn_navi"
+            android:layout_width="28dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/ic_navi" />
+
+        <Button
+            android:id="@+id/btn_lock"
+            android:layout_width="19dp"
+            android:layout_height="19dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/ic_lock" />
+
+        <TextView
+            android:id="@+id/delivery_name"
+            android:layout_width="34dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="190dp"
+            android:gravity="center_horizontal|top"
+            android:text="운송장"
+            android:textAppearance="@style/배송완료_상세" />
+
+        <TextView
+            android:id="@+id/delivery_detail"
+            android:layout_width="34dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="190dp"
+            android:gravity="center_horizontal|top"
+            android:text="상세정보"
+            android:textAppearance="@style/배송완료_상세" />
+
+        <TextView
+            android:id="@+id/delivery_status"
+            android:layout_width="34dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="190dp"
+            android:gravity="center_horizontal|top"
+            android:text="진행현황"
+            android:textAppearance="@style/배송완료_상세" />
+
+        <View
+            android:id="@+id/sub_line1"
+            android:layout_width="411dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="210dp"
+            android:background="@drawable/line" />
+
+        <TextView
+            android:id="@+id/number1"
+            android:layout_width="70dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="225dp"
+            android:gravity="center_horizontal|top"
+            android:text="1293-2836-0847"
+            android:textAppearance="@style/배송완료_상세" />
+
+        <TextView
+            android:id="@+id/information1"
+            android:layout_width="200dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="225dp"
+            android:gravity="center_horizontal|top"
+            android:text="탄산수 플레인 1box"
+            android:textAppearance="@style/배송완료_상세" />
+
+        <TextView
+            android:id="@+id/status1"
+            android:layout_width="70dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="310dp"
+            android:layout_marginTop="225dp"
+            android:gravity="center_horizontal|top"
+            android:text="미배송"
+            android:textAppearance="@style/배송완료_상세" />
+
+
+
+
+
+
+    </FrameLayout>
+</FrameLayout>

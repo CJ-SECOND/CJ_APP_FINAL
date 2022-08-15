@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:background="#FFFFFF">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <TextView
+            android:id="@+id/informwrite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="31dp"
+            android:text="회원정보를 입력해주세요."
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:gravity="left"
+            android:textColor="@android:color/black"
+            />
+
+        <EditText
+            android:id="@+id/et_join_name"
+            android:layout_width="334dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="110dp"
+            android:background="@drawable/border_linear2"
+            android:hint="이름"
+            android:inputType="textPersonName"
+
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/et_join_id"
+            android:layout_width="334dp"
+            android:layout_height="40dp"
+            android:background="@drawable/border_linear2"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="30dp"
+            android:hint="아이디"
+            android:inputType="text"
+
+            android:paddingLeft="10dp"
+            />
+
+        <EditText
+            android:id="@+id/et_join_pw"
+            android:layout_width="334dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="210dp"
+            android:background="@drawable/border_linear2"
+            android:hint="비밀번호"
+
+            android:inputType="textPassword"
+
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/et_join_confirmpw"
+            android:layout_width="334dp"
+            android:layout_height="40dp"
+            android:background="@drawable/border_linear2"
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="30dp"
+            android:hint="비밀번호 확인"
+            android:inputType="textPassword"
+
+            android:paddingLeft="10dp"
+            />
+
+        <EditText
+            android:id="@+id/et_join_phonenum"
+            android:layout_width="233dp"
+            android:layout_height="43dp"
+            android:background="@drawable/border_linear2"
+            android:layout_marginTop="310dp"
+            android:layout_marginLeft="30dp"
+            android:hint="전화번호"
+            android:inputType="phone"
+
+            android:paddingLeft="10dp"
+            />
+
+        <EditText
+            android:id="@+id/et_join_confirmnum"
+            android:layout_width="233dp"
+            android:layout_height="44dp"
+            android:background="@drawable/border_linear2"
+            android:layout_marginTop="360dp"
+            android:layout_marginLeft="30dp"
+            android:hint="본인인증 번호"
+            android:inputType="text|number"
+
+            android:paddingLeft="10dp"
+            />
+
+        <Button
+            android:id="@+id/btn_sendcode1"
+            android:layout_width="90dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="313dp"
+            android:background="@drawable/headercirclegray"
+            android:text="본인인증"
+            />
+
+        <Button
+            android:id="@+id/btn_rcgcode1"
+            android:layout_width="90dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="270dp"
+            android:layout_marginTop="363dp"
+            android:background="@drawable/headercirclegray"
+            android:text="인증하기"
+            />
+        <TextView
+            android:id="@+id/havecode5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="409dp"
+            android:layout_marginLeft="40dp"
+            android:text="코드를 못받으셨나요?"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/havecode6"
+            android:layout_width="137dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="403dp"
+            android:layout_marginLeft="170dp"
+            android:text="코드 다시보내기"
+            android:textStyle="bold"
+            android:background="#00990000"
+            />
+
+
+
+        <TextView
+            android:id="@+id/allagree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="430dp"
+            android:padding="40dp"
+            android:paddingLeft="40dp"
+            android:text="CJ MATE 이용약관"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+
+
+
+        <View
+            android:layout_width="370dp"
+            android:layout_height="2px"
+            android:layout_marginTop="500dp"
+            android:layout_marginLeft="18dp"
+            android:background="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/essential1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="520dp"
+            android:layout_marginLeft="38dp"
+            android:text="필수"
+            android:textColor="#029AFF"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/essential2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="560dp"
+            android:layout_marginLeft="38dp"
+            android:text="필수"
+            android:textColor="#029AFF"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/essential3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="38dp"
+            android:text="선택"
+            android:textColor="#029AFF"
+            android:textStyle="bold"
+            />
+
+        <CheckBox
+            android:id="@+id/checkbox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="510dp"
+            android:layout_marginLeft="320dp"
+             />
+
+
+
+        <TextView
+            android:id="@+id/agree1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="520dp"
+            android:layout_marginLeft="80dp"
+            android:text="이용약관 동의  >"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/agree2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="560dp"
+            android:layout_marginLeft="80dp"
+            android:text="개인정보 수집 및 이용동의  >"
+            android:textStyle="bold"
+            />
+
+        <CheckBox
+            android:id="@+id/checkbox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="549dp"
+            android:layout_marginLeft="320dp"
+           />
+
+        <TextView
+            android:id="@+id/agree3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="80dp"
+            android:text="SMS 광고성 정보 수신동의  >"
+            android:textStyle="bold"
+            />
+
+        <CheckBox
+            android:id="@+id/checkbox4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="590dp"
+            android:layout_marginLeft="320dp"
+            />
+
+        <TextView
+            android:id="@+id/agree4"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="620dp"
+            android:layout_marginLeft="80dp"
+            android:text="다양한 프로모션 소식을 보내 드립니다."
+            android:textSize="10dp"
+            />
+
+        <Button
+            android:id="@+id/btn_next1"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="665dp"
+            android:background="@drawable/border_button"
+            android:text="다음"
+            android:textColor="#029aff"
+            android:gravity="center"
+            />
+    </FrameLayout>
+</ScrollView>

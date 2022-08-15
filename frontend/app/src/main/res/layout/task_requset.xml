@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".task.TaskRequest"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/text_request"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="업무 신청"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/border_linear"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/requestTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="27dp"
+                android:layout_marginBottom="16dp"
+                android:text=""
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="330dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/border_linear2"
+                android:clickable="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/img_location_black" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/requestArea"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="12dp"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/requestDateTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/requestWorkTime"
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/border_linear3"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#029aff" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="24dp"
+                android:text="물량 선택"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+
+                <Button
+                    android:id="@+id/cntBtn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/border_button2"
+                    android:text="30개"
+                    android:textColor="#d2d1d4" />
+
+                <Button
+                    android:id="@+id/cntBtn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/border_button2"
+                    android:text="50개"
+                    android:textColor="#d2d1d4" />
+
+                <Button
+                    android:id="@+id/cntBtn3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/border_button2"
+                    android:text="70개"
+                    android:textColor="#d2d1d4" />
+
+                <Button
+                    android:id="@+id/cntBtn4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/border_button2"
+                    android:text="100개"
+                    android:textColor="#d2d1d4" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="30dp"
+                android:text="카테고리를 선택해 원하는 배송물품을 받으세요."
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="50dp">
+
+                <Button
+                    android:id="@+id/stateBtn1"
+                    android:layout_width="80dp"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/border_button2"
+                    android:text="무게"
+                    android:textColor="#d2d1d4" />
+
+                <Button
+                    android:id="@+id/stateBtn2"
+                    android:layout_width="80dp"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/border_button2"
+                    android:text="사이즈"
+                    android:textColor="#d2d1d4" />
+
+                <Button
+                    android:id="@+id/stateBtn3"
+                    android:layout_width="80dp"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/border_button2"
+                    android:text="교통혼잡도"
+                    android:textColor="#d2d1d4" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="24dp"
+                android:layout_gravity="left"
+                android:text="배송물품의 무게, 사이즈, 출차 시간의 교통혼잡도 등급을 적용하여 \n
+메이트의 조건에 부합하는 배송물품을 할당받을 수 있습니다.\n
+원하는 배송물품을 받아 보다 편한 배송을 해보세요!"
+                android:textAppearance="@style/task"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/border_linear2"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border_linear2">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="360dp"
+                        android:layout_height="38dp"
+                        android:gravity="center_vertical"
+                        android:text=" 전체동의"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="310dp"
+                        android:layout_height="38dp"
+                        android:gravity="center_vertical"
+                        android:text=" (필수) CJ MATE 개인정보 동의 "
+                        android:textColor="@color/black" />
+
+                    <Button
+                        android:id="@+id/btn_agree1"
+                        android:layout_width="7dp"
+                        android:layout_height="13dp"
+                        android:background="@drawable/btn_next"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="310dp"
+                        android:layout_height="38dp"
+                        android:gravity="center_vertical"
+                        android:text=" (필수) 위치기반 서비스 이용약관 동의"
+                        android:textColor="@color/black" />
+
+                    <Button
+                        android:id="@+id/btn_agree2"
+                        android:layout_width="7dp"
+                        android:layout_height="13dp"
+                        android:background="@drawable/btn_next"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                >
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="310dp"
+                        android:layout_height="38dp"
+                        android:gravity="center_vertical"
+                        android:text=" (필수) 위탁 계약서 동의"
+                        android:textColor="@color/black" />
+
+                    <Button
+                        android:id="@+id/btn_agree3"
+                        android:layout_width="7dp"
+                        android:layout_height="13dp"
+                        android:background="@drawable/btn_next"
+                        />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_next8"
+                    android:layout_width="355dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/border_button"
+                    android:text="완료"
+                    android:textColor="#029aff"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

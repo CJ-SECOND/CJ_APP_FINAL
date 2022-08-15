@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dsla.tracking_date_select"
+    android:orientation="horizontal">
+
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/logistictracking"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/header"
+            android:gravity="center"
+            android:text="배송 트래킹"
+            android:textColor="@android:color/black"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/deliveryhistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="70dp"
+            android:gravity="left"
+            android:text="배송 이력"
+            android:textColor="@android:color/black"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="100dp"
+            android:text="2022년 5월"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="23dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="130dp"
+            android:text="일"
+
+            />
+
+        <TextView
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="130dp"
+            android:text="월"
+
+            />
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="130dp"
+            android:text="화"
+
+            />
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="130dp"
+            android:text="수"
+
+            />
+
+        <TextView
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="242dp"
+            android:layout_marginTop="130dp"
+            android:text="목"
+
+            />
+
+        <TextView
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="130dp"
+            android:text="금"
+
+            />
+
+        <TextView
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="130dp"
+            android:text="토"
+
+            />
+
+        <Button
+            android:id="@+id/sunbutton"
+            android:layout_width="38dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/confirm_btn"
+            android:text="\n\n1"
+            android:textColor="#73777F"
+            android:textSize="15dp" />
+
+
+        <Button
+            android:id="@+id/monbutton"
+            android:layout_width="38dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="79dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/confirm_btn"
+            android:text="\n\n2"
+            android:textColor="#73777F"
+            android:textSize="15dp" />
+
+        <View
+            android:layout_width="4dp"
+            android:layout_height="4dp"
+            android:layout_marginLeft="96dp"
+            android:layout_marginTop="189dp"
+            android:background="@drawable/bluebutton" />
+
+
+        <Button
+            android:id="@+id/tusbutton"
+            android:layout_width="38dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="128dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/confirm_btn"
+            android:text="\n\n3"
+            android:textColor="#73777F"
+            android:textSize="15dp" />
+
+
+        <View
+            android:layout_width="4dp"
+            android:layout_height="4dp"
+            android:layout_marginLeft="195dp"
+            android:layout_marginTop="189dp"
+            android:background="@drawable/bluebutton" />
+
+
+        <Button
+            android:id="@+id/turbutton"
+            android:layout_width="38dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/confirm_btn"
+            android:text="\n\n5"
+            android:textColor="#73777F"
+            android:textSize="15dp" />
+
+
+        <Button
+            android:id="@+id/wedbutton"
+            android:layout_width="38dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="178dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/confirm_btn"
+            android:text="\n\n4"
+            android:textColor="#73777F"
+            android:textSize="15dp" />
+
+
+        <Button
+            android:id="@+id/fributton"
+            android:layout_width="38dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="278dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/confirm_btn"
+            android:text="\n\n6"
+            android:textColor="#73777F"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/satbutton"
+            android:layout_width="38dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/confirm_btn"
+            android:text="\n\n7"
+            android:textColor="#73777F"
+            android:textSize="15dp" />
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="215dp"
+            android:background="@drawable/shadow"
+
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="220dp"
+            android:gravity="center"
+            android:text="배송완료" />
+
+        <TextView
+            android:id="@+id/www"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="57dp"
+            android:layout_marginTop="240dp"
+            android:gravity="center"
+            android:text="97" />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="73dp"
+            android:layout_marginTop="240dp"
+            android:gravity="center"
+            android:text="건" />
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="215dp"
+            android:background="@drawable/shadow" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="158dp"
+            android:layout_marginTop="220dp"
+            android:gravity="center"
+            android:text="오배송" />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="186dp"
+            android:layout_marginTop="240dp"
+            android:gravity="center"
+            android:text="2" />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="203dp"
+            android:layout_marginTop="240dp"
+            android:gravity="center"
+            android:text="건" />
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="215dp"
+            android:background="@drawable/shadow" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="220dp"
+            android:gravity="center"
+            android:text="분실/파손" />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="315dp"
+            android:layout_marginTop="240dp"
+            android:gravity="center"
+            android:text="1" />
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="331dp"
+            android:layout_marginTop="240dp"
+            android:gravity="center"
+            android:text="건" />
+
+    </FrameLayout>
+
+</LinearLayout>

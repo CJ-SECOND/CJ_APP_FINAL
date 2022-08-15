@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/dsla_check_name"
+                android:layout_width="215dp"
+                android:layout_height="16dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/alllist_name" />
+
+            <TextView
+                android:layout_width="360dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="20dp"
+                android:text="
+배송서비스수준계약(Delivery Service Level Agreement)으로, 고객이 사용자에게 기대하는 서비스 수준을 기술한 문서. 해당 서비스를 측정할 지표를 규정. 합의된 수준을 충족하지 못했을 때 해결책이나
+불이익도 같이 명시됨.\n
+
+
+\n계약 목적
+\n
+서비스와 관련해 합의된 신뢰도에 대한 정보를 하나의 문서에 정리하여 측정 지표, 책임, 기치를 명시함으로써 서비스에 문제가 발생했을 때 어느 측도 몰랐다는 변명을 할 수 없게 되어 있음. 양측이 요건을 똑같이 이해하도록 보장함.
+\n
+
+\n서비스 내용
+\n
+서비스를 수행하는데 동의합니다. 당사자들은 본 계약에 따른 그들의 의무가 본 계약에 대한 가치있는 고려사항이라는 것을 인정한다. 서비스에는 다음항목이 포함됩니다.
+\n
+  \n 1 .  당일 배정받은 배송 물품은 당일 배송 완료. (단, 천재지변 그 밖의 불가항력적인 사유, 본사의 절차
+          에 따라 진행한다.)
+   \n2 . 배송 완료 후 위탁 사진 촬영.
+   \n3 . 고객의 개인정보(이름, 전화번호, 주소, 배송품목, 공동현관 비밀번호 신상)을 제 3자에게 공개
+         하거나 누설하지 않음.
+   \n4 . 오배송 및 분실/파손 시, 1일 이내 본사 절차에 맞는 대처.
+\n
+\n오배송, 분실/파손에 대한 당사자 책임
+  \n 1 . 본 배송 물품이 맞는지 확인
+  \n 2 . 오배송 및 파손 물품 회수
+  \n 3 . 본사에 고지
+
+\n오배송, 분실/파손에 대한 단계적 문제 해결 절차
+
+  \n 1 . 사고접수 : ‘CJ MATE’에서 오배송 및 분실/파손 신청 후 고객센터에 상황 알림
+   \n2 . 사고 심사 : 접수된 사고 내용에 따라 사고사실 확인 및 책임 소재시를 규명한 뒤 물품가액 및
+                                     택배 요금을 참고하여 배송금액 결정
+   \n3 . 손해배상
+
+        운송을 위하여 사용한 자(배송인)가 운송물의 수탁, 인도, 보관 및 운송에 관하여 주의를 태만히
+        하지 않았음을 증명하지 못하는 한 소비자에게 운송물의 연착으로 인한 손해를 배상.
+     「택배 표준약관」 제22조제1항.
+
+   \n     3 - 1. 운송장에 운송물의 가액을 기재한 경우
+     \n       가 .  택배의 배달지연으로 인한 피해가 일반적인 경우에는 인도 예정일을 초과한 일수에 배송인
+                       이 운송장에 기재한 운임액의 50%를 곱한 금액(초과일수×운송장기재운임액×50%)을 배상
+                       합니다. 다만, 운송장기재운임액의 200%를 한도로 합니다.
+                    「택배 표준약관」 제22조제2항제3호.
+       \n     나 . 특정일시에 사용할 운송물의 경우에는 운송장 기재 운임액의 200%를 배상합니다.
+                「택배 표준약관」 제22조제2항제3호.
+       \n 3 - 2 . 운송장에 운송물의 가액을 기재하지 않은 경우
+        \n    가 . 운송물이 연착되고 일부 멸실 또는 훼손되었으나 운송장에 운송물의 가액을 기재하지 않은
+                     경우에는 손해배상한도액은 50만원으로 하되, 운송물의 가액에 따라 할증요금을 지급하는
+                     경우의 손해배상한도액은 각 운송가액 구간별 운송물의 최고가액으로 한다.
+                 「택배 표준약관」 제22조제3항
+          \n  나 .  택배의 배달지연으로 인한 피해가 일반적인 경우에는 인도예정일을 초과한 일수에 택배
+                      회사가 운송장에 기재한 택배운임액의 50%를 곱한 금액(초과일수×운송장 기재 운임액
+                       ×50%)을 배상합니다. 다만, 운송장 기재 운임액의 200%를 한도로 합니다.
+                    「택배 표준약관」 제22조제3항제4호
+
+특정일시에 사용할 운송물의 경우에는 운송장 기재 운임액의 200%를 배상합니다.
+       「택배 표준약관」 제22조제3항제4호
+
+        \n    3 - 3 . 운송물의 연착이 택배 회사 또는 그의 사용인의 고의 또는 중대한 과실로 인하여 발생한
+                         때에는, 위의 규정에도 불구하고 택배 회사는 모든 손해를 배상합니다.
+                    「택배 표준약관」 제22조제4항
+
+\n서비스 수준 위반
+  \n  1. 오배송, 분실/파손 배송 물품 본사 미고지
+    \n2. 등록한 출차와 다른 차량으로 배송
+    \n3. 본인인증한 본인과 다른 사용자가 앱 이용 시
+
+\n오배송, 분실/파손 비율
+
+\n오배송율, 분실/파손 3.00% 미만 정상범위
+
+\n패널티(일정기간 업무 미배정, 수수료 차감)
+
+\n일정 기간(오배송, 분실/파손  비율 3.00%이상 달성일로 부터)   3일 업무 미배정
+\n2회 이상 정상범위 초과 시(오배송, 분실/파손 비율 3.00%이상 달성일로 부터), 7일 업무 미배정
+\n서비스 수준 위반 항목에 해당하는 행동 적발 시, 3일 업무 미배정
+\n서비스 수준 위반 항목에 해당하는 2회 이상 행동 적발 시, 7일 업무 미배정
+\n
+서비스 계약은 CJ MATE와 서비스 제공자 간에 이루어지며, 본 계약은 동의날짜 후 1년까지 효력이 발생합니다.
+
+"
+                android:textSize="13dp"    />
+
+        </LinearLayout>
+    </ScrollView>
+
+    //하단 고정
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/agreebutton2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/bluecirclefill"
+            android:textColor="#FFFFFF"
+            android:text="동의" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

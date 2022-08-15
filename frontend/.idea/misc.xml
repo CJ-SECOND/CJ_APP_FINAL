@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/cj_workspace/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2925" />
+        <entry key="..\:/cj_workspace/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.2925" />
+        <entry key="..\:/cj_workspace/app/src/main/res/drawable/img_location_black.xml" value="0.2925" />
+        <entry key="..\:/cj_workspace/app/src/main/res/font/font.xml" value="0.3963541666666667" />
+        <entry key="..\:/cj_workspace/app/src/main/res/layout/activity_main.xml" value="0.3515625" />
+        <entry key="..\:/cj_workspace/app/src/main/res/layout/app_start.xml" value="0.36614583333333334" />
+        <entry key="..\:/cj_workspace/app/src/main/res/layout/delivery_check.xml" value="0.36614583333333334" />
+        <entry key="..\:/cj_workspace/app/src/main/res/layout/delivery_check_detail.xml" value="0.36614583333333334" />
+        <entry key="..\:/cj_workspace/app/src/main/res/layout/delivery_map.xml" value="0.36614583333333334" />
+        <entry key="..\:/cj_workspace/app/src/main/res/layout/delivery_status.xml" value="0.36614583333333334" />
+        <entry key="..\:/cj_workspace/app/src/main/res/layout/dsla.xml" value="0.36614583333333334" />
+        <entry key="..\:/cj_workspace/app/src/main/res/layout/dsla_agreement.xml" value="0.36614583333333334" />
+        <entry key="..\:/cj_workspace/app/src/main/res/layout/dsla_check.xml" value="0.5" />
+        <entry key="..\:/cj_workspace/app/src/main/res/layout/dsla_main.xml" value="0.5536458333333333" />
+        <entry key="..\:/cj_workspace/app/src/main/res/layout/join_account.xml" value="0.36614583333333334" />
+        <entry key="..\:/cj_workspace/app/src/main/res/layout/join_area.xml" value="0.36614583333333334" />
+        <entry key="..\:/cj_workspace/app/src/main/res/layout/join_carinform.xml" value="0.5" />
+        <entry key="..\:/cj_workspace/app/src/main/res/layout/login_join_complete.xml" value="0.36614583333333334" />
+        <entry key="..\:/cj_workspace/app/src/main/res/layout/permission_set.xml" value="0.36614583333333334" />
+        <entry key="..\:/cj_workspace/app/src/main/res/layout/task_confirm.xml" value="0.36614583333333334" />
+        <entry key="..\:/cj_workspace/app/src/main/res/layout/task_list.xml" value="0.36614583333333334" />
+        <entry key="..\:/cj_workspace/app/src/main/res/layout/task_request_child_list.xml" value="0.36614583333333334" />
+        <entry key="..\:/cj_workspace/app/src/main/res/layout/task_requset.xml" value="0.36614583333333334" />
+        <entry key="..\:/cj_workspace/app/src/main/res/layout/task_requset_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/cj_workspace/app/src/main/res/layout/task_requset_parent_list.xml" value="0.36614583333333334" />
+        <entry key="..\:/cj_workspace/app/src/main/res/layout/tracking.xml" value="0.36614583333333334" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/drawable-v24/bluecorner.xml" value="0.17" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/drawable/addphoto.xml" value="0.1" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/drawable/bluecirclecircle.xml" value="0.17" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/drawable/bluecirclefill.xml" value="0.17" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/drawable/border_button.xml" value="0.177" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/drawable/border_button2.xml" value="0.177" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/drawable/border_button3.xml" value="0.367" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/drawable/border_linear3.xml" value="0.17" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/drawable/border_linear6.xml" value="0.1695" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/drawable/button_back_normal.xml" value="0.17" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/drawable/confirm_btn.xml" value="0.1955" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/drawable/img_addcricle_gray.xml" value="0.177" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/drawable/img_car_black.xml" value="0.177" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/drawable/img_delivery_gray.xml" value="0.177" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/drawable/img_menu_black.xml" value="0.177" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/drawable/img_menu_gray.xml" value="0.177" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/drawable/img_scan_gray.xml" value="0.177" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/layout/barcode.xml" value="0.25" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/layout/camera.xml" value="0.25" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/layout/content_phone_call.xml" value="0.36614583333333334" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/layout/delivery_check.xml" value="0.36614583333333334" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/layout/delivery_check_detail.xml" value="0.36614583333333334" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/layout/delivery_map.xml" value="0.33" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/layout/delivery_map_addr_item.xml" value="0.36614583333333334" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/layout/delivery_map_detail.xml" value="0.25" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/layout/delivery_status.xml" value="0.3605128205128205" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/layout/dsla_agreement.xml" value="0.36614583333333334" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/layout/dsla_check.xml" value="0.36614583333333334" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/layout/dsla_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/layout/fragment_first.xml" value="0.36614583333333334" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/layout/fragment_second.xml" value="0.36614583333333334" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/layout/fragment_traking_piechart.xml" value="0.3515625" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/layout/join_agree.xml" value="0.3515625" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/layout/join_area.xml" value="0.36614583333333334" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/layout/join_main.xml" value="0.6417998815867377" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/layout/login_main.xml" value="0.1890625" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/layout/phonecall.xml" value="0.14359861591695502" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/layout/photo.xml" value="0.3515625" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/layout/sms.xml" value="0.3515625" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/layout/task_confirm.xml" value="0.5723114956736712" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/layout/task_list.xml" value="0.5" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/layout/task_request_child_list.xml" value="0.36614583333333334" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/layout/task_requset.xml" value="0.5" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/layout/task_requset_main.xml" value="0.33" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/layout/task_requset_parent_list.xml" value="0.36614583333333334" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/layout/tracking.xml" value="0.33" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/layout/traking_date_select.xml" value="0.36614583333333334" />
+        <entry key="..\:/cj_workspace/frontend/app/src/main/res/layout/traking_piechart.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

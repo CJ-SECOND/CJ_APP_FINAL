@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/dsla_check_name"
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="65dp"
+            android:background="@drawable/dsla_checke_name" />
+
+        <ImageView
+            android:id="@+id/dsla_check_subname"
+            android:layout_width="315dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="140dp"
+            android:background="@drawable/dsla_check_sub" />
+
+
+        <TextView
+            android:id="@+id/dsla_check_1"
+            android:layout_width="350dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="280dp"
+            android:background="@drawable/dsla_bc_check"
+            android:clickable="true"
+            android:gravity="left"
+            android:paddingLeft="40dp"
+            android:paddingTop="23dp"
+            android:text="CJ MATE  배송 서비스 수준 협약 설명서 " />
+
+        <Button
+            android:id="@+id/dsla_add"
+            android:layout_width="7dp"
+            android:layout_height="11dp"
+            android:layout_marginLeft="310dp"
+            android:layout_marginTop="307dp"
+            android:background="@drawable/add" />
+
+        <CheckBox
+            android:id="@+id/dsla_check_before1"
+            android:layout_width="29dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="303dp"
+            android:buttonTint="#029AFF"
+            android:checked="false" />
+
+
+        <Button
+            android:id="@+id/agreebutton3"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="650dp"
+            android:background="@drawable/bluecirclefill"
+            android:gravity="center"
+            android:text="동의"
+            android:textColor="#FFFFFF" />
+
+
+
+    </FrameLayout>
+</ScrollView>

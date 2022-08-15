@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#FFFFFF">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/cartext2"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="30dp"
+            android:text="차량 정보를 등록해주세요."
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:gravity="left"
+            android:textColor="@android:color/black"
+            />
+
+        <EditText
+            android:id="@+id/et_carkind"
+            android:layout_width="334dp"
+            android:layout_height="45dp"
+            android:background="@drawable/border_linear2"
+            android:layout_marginTop="145dp"
+            android:layout_marginLeft="30dp"
+            android:hint="차량종류(예시 : 모닝,산타페,벤츠 등)"
+            android:paddingLeft="15dp"
+
+            />
+
+
+
+        <EditText
+            android:id="@+id/et_carnum"
+            android:layout_width="334dp"
+            android:layout_height="45dp"
+            android:background="@drawable/border_linear2"
+            android:layout_marginTop="205dp"
+            android:layout_marginLeft="30dp"
+            android:hint="차량번호(예시 : 12가 3456)"
+            android:inputType="textPersonName"
+            android:text=""
+            android:paddingLeft="15dp"
+            />
+
+        <EditText
+            android:id="@+id/et_carclr"
+            android:layout_width="334dp"
+            android:layout_height="45dp"
+            android:background="@drawable/border_linear2"
+            android:layout_marginTop="265dp"
+            android:layout_marginLeft="30dp"
+            android:hint=""
+            android:inputType="text|number"
+            android:text=""
+            android:paddingLeft="15dp"
+            />
+
+        <Spinner
+            android:id="@+id/spinnercarcolor"
+            android:entries="@array/차량번호판색"
+            android:layout_width="334dp"
+            android:layout_height="45dp"
+            android:spinnerMode="dropdown"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="265dp"
+            />
+
+        <TextView
+            android:id="@+id/cartext3"
+            android:layout_width="334dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="405dp"
+            android:layout_marginLeft="40dp"
+            android:text="사용할 차량이 화물차인 경우 영업용 번호판(노랑색)이 부착되어야 배송\n가능하며 흰색 번호판인 경우 배송을 신청할 수 없습니다."
+            android:textSize="11dp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/btn_next4"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="665dp"
+            android:background="@drawable/border_button"
+            android:text="다음"
+            android:textColor="#029AFF"
+            android:gravity="center"
+            />
+
+    </FrameLayout>
+</FrameLayout>

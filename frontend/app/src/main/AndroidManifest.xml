@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.frontend.cj_app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.Camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/icon_cjmate"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CJ_APP"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".PhoneCall"
+            android:exported="false"
+            android:label="@string/title_activity_phone_call"
+            android:theme="@style/Theme.CJ_APP.NoActionBar" />
+        <!-- sms -->
+        <activity
+            android:name=".sms.sms"
+            android:exported="true"
+            android:label="SMS Sender" /> <!-- camera -->
+        <activity
+            android:name=".camera.camera"
+            android:exported="false" /> <!-- dsla -->
+        <activity
+            android:name=".dsla.dsla_agreement"
+            android:exported="false" />
+        <activity
+            android:name=".dsla.dsla_check"
+            android:exported="false" />
+        <activity
+            android:name=".dsla.dsla_main"
+            android:exported="false" />
+        <activity
+            android:name=".dsla.tracking"
+            android:exported="false" /> <!-- delivery -->
+        <activity
+            android:name=".delivery.delivery_check"
+            android:exported="false" />
+        <activity
+            android:name=".delivery.delivery_check_detail"
+            android:exported="false" />
+        <activity
+            android:name=".delivery.delivery_map"
+            android:exported="false" />
+        <activity
+            android:name=".delivery.delivery_map_detail"
+            android:exported="false" />
+        <activity
+            android:name=".delivery.delivery_status"
+            android:exported="false" /> <!-- barcode -->
+        <activity
+            android:name=".barcode.Barcode"
+            android:exported="false"
+            android:hardwareAccelerated="true" /> <!-- user -->
+        <activity
+            android:name=".user.login.permissionset"
+            android:exported="false" />
+        <activity
+            android:name=".user.login.Login_main"
+            android:exported="false" />
+        <activity
+            android:name=".user.login.Join_Complete"
+            android:exported="false" />
+        <activity
+            android:name=".user.join.Join_car_info"
+            android:exported="false" />
+        <activity
+            android:name=".user.join.Join_area"
+            android:exported="false" />
+        <activity
+            android:name=".user.join.Join_account"
+            android:exported="false" />
+        <activity
+            android:name=".user.join.Join_agree"
+            android:exported="false" />
+        <activity
+            android:name=".user.join.Join_main"
+            android:exported="false" /> <!-- task -->
+        <activity
+            android:name=".task.TaskList"
+            android:exported="false" />
+        <activity
+            android:name=".task.TaskConfirm"
+            android:exported="false" />
+        <activity
+            android:name=".task.TaskRequest"
+            android:exported="false" />
+        <activity
+            android:name=".task.TaskRequestMain"
+            android:exported="false" />
+        <activity
+            android:name=".AppStart"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="hwdocwymq1" />
+    </application>
+
+</manifest>
